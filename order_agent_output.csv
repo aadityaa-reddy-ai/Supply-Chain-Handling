@@ -1,0 +1,5 @@
+query,tools_called,final_reply
+"Order ORD-101 is late, what should we do?","get_order(ORD-101) -> check_stock(LAPTOP-15) -> log_action(ORD-101, reship)",Order ORD-101 has been reshipped. Stock is available in Mumbai and Hyderabad. Ticket number: TKT-ORD-101-01.
+"Customer got a broken item for ORD-102, please handle it.","get_order(ORD-102) -> check_stock(WATCH-PRO) -> log_action(ORD-102, refund)","The item was out of stock across all warehouses, so a refund has been issued. 
+Ticket Number: TKT-ORD-102-01"
+Check order ORD-999,get_order(ORD-999),Order ORD-999 was not found. Please check the order ID and try again.
